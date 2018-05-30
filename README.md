@@ -6,14 +6,15 @@ save some files
 
 ### normal
 ```
-https://raw.githubusercontent.com/sltpaya/save_repository/master/install1.gradle
-https://raw.githubusercontent.com/sltpaya/save_repository/master/upload1.gradle
+apply from: "https://raw.githubusercontent.com/sltpaya/save_repository/master/install1.gradle"
+apply from: "https://raw.githubusercontent.com/sltpaya/save_repository/master/upload1.gradle"
 ```
+
 
 ### with gpg
 ```
-https://raw.githubusercontent.com/sltpaya/save_repository/master/install1.gradle
-https://raw.githubusercontent.com/sltpaya/save_repository/master/upload2.gradle
+apply from: "https://raw.githubusercontent.com/sltpaya/save_repository/master/install1.gradle"
+apply from: "https://raw.githubusercontent.com/sltpaya/save_repository/master/upload2.gradle"
 ```
 
 
